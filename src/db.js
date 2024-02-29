@@ -1,3 +1,5 @@
+"use server";
+
 import mysql from "serverless-mysql";
 
 const db1 = mysql({

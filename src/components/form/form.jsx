@@ -20,7 +20,7 @@ export const Form = () => {
         <label>
           Project ID:
           <input
-            class="border"
+            className="border"
             type="text"
             value={projectID}
             onChange={(e) => setProjectID(e.target.value)}
@@ -30,7 +30,7 @@ export const Form = () => {
         <label>
           Employee ID:
           <input
-            class="border"
+            className="border"
             type="text"
             value={employeeID}
             onChange={(e) => setEmployeeID(e.target.value)}
@@ -40,7 +40,7 @@ export const Form = () => {
         <label>
           Project Name:
           <input
-            class="border"
+            className="border"
             type="text"
             value={projectName}
             onChange={(e) => setProjectName(e.target.value)}
