@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import { useAppDispatch } from "../../lib/hooks";
-// import { useDispatch } from "react-redux";
 import { addTodo } from "@/lib/reducers/todoReducer";
 
 const TodoForm = () => {

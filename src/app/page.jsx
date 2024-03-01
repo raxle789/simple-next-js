@@ -1,6 +1,7 @@
 "use client";
 
 import { Form } from "../components/form/form";
+// import { withReduxVar } from "./store-provider";
 
 export default function Home() {
   return (
@@ -13,3 +14,5 @@ export default function Home() {
     </>
   );
 }
+
+// export default withReduxVar(Home);

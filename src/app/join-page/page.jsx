@@ -1,3 +1,4 @@
+"use client";
 import { executeQueryDB1 } from "@/db";
 
 export default function JoinPage() {
